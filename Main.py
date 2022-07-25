@@ -24,6 +24,7 @@ class Stack:
         if not self.is_empty():
             # Write code here
             self.items.pop()
+            self.top-=1
 
     def status(self):
         # Write code here
