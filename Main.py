@@ -11,8 +11,8 @@ class Stack:
            return len(self.items) == size
 
     def push(self, data):
-             if not self.is_full():
-               self.items.append(values[1])
+            if not self.is_full():
+                  self.items.append(values[1])
 
     def pop(self):
            if not self.is_empty():
